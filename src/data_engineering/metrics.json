@@ -1,0 +1,4852 @@
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.76,
+                "max": 0.79,
+                "mean": 0.774
+            },
+            "precision": {
+                "min": 0.7784431137724551,
+                "max": 0.803680981595092,
+                "mean": 0.7932464174781727
+            },
+            "recall": {
+                "min": 0.900709219858156,
+                "max": 0.9290780141843972,
+                "mean": 0.9191489361702128
+            },
+            "f1_score": {
+                "min": 0.8441558441558443,
+                "max": 0.861842105263158,
+                "mean": 0.8515165297745109
+            },
+            "auc": {
+                "min": 0.6474335857675202,
+                "max": 0.6933525664142325,
+                "mean": 0.6731337901190048
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.09831297265852235,
+                "max": 0.038976148923792864,
+                "mean": -0.05200698080279229
+            },
+            "equal_opportunity_difference": {
+                "min": 0.02725563909774431,
+                "max": 0.18984962406015038,
+                "mean": 0.0733082706766917
+            },
+            "average_odds_difference": {
+                "min": -0.21913080114078304,
+                "max": -0.13783380865958,
+                "mean": -0.180587243971999
+            },
+            "disparate_impact": {
+                "min": 0.8893979057591623,
+                "max": 1.050112191473448,
+                "mean": 0.9427449513836949
+            },
+            "theil_index": {
+                "min": 0.09546619889123685,
+                "max": 0.11731505401507836,
+                "mean": 0.10450820765787627
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.76,
+                "max": 0.79,
+                "mean": 0.772
+            },
+            "precision": {
+                "min": 0.7831325301204819,
+                "max": 0.8113207547169812,
+                "mean": 0.7949240195512064
+            },
+            "recall": {
+                "min": 0.8936170212765957,
+                "max": 0.9219858156028369,
+                "mean": 0.9120567375886525
+            },
+            "f1_score": {
+                "min": 0.8400000000000001,
+                "max": 0.8600000000000001,
+                "mean": 0.8494093346116048
+            },
+            "auc": {
+                "min": 0.6559081620387066,
+                "max": 0.703209520375045,
+                "mean": 0.6746724365909365
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.09831297265852235,
+                "max": 0.028504944735311177,
+                "mean": -0.06038394415357764
+            },
+            "equal_opportunity_difference": {
+                "min": 0.019736842105263164,
+                "max": 0.16729323308270672,
+                "mean": 0.06578947368421051
+            },
+            "average_odds_difference": {
+                "min": -0.22885338345864664,
+                "max": -0.1404913144931294,
+                "mean": -0.18951905626134302
+            },
+            "disparate_impact": {
+                "min": 0.8893979057591623,
+                "max": 1.0366492146596857,
+                "mean": 0.9329842931937172
+            },
+            "theil_index": {
+                "min": 0.10250886090888783,
+                "max": 0.12367420246058244,
+                "mean": 0.10948757139599963
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.715,
+                "max": 0.715,
+                "mean": 0.715
+            },
+            "precision": {
+                "min": 0.7142857142857143,
+                "max": 0.7142857142857143,
+                "mean": 0.7142857142857143
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.8308605341246291,
+                "max": 0.8308605341246291,
+                "mean": 0.8308605341246291
+            },
+            "auc": {
+                "min": 0.5218776295227792,
+                "max": 0.5218776295227792,
+                "mean": 0.5218776295227792
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.023809523809523836,
+                "max": 0.023809523809523836,
+                "mean": 0.023809523809523836
+            },
+            "equal_opportunity_difference": {
+                "min": 0.008403361344537785,
+                "max": 0.008403361344537785,
+                "mean": 0.008403361344537785
+            },
+            "average_odds_difference": {
+                "min": 0.034813925570228055,
+                "max": 0.034813925570228055,
+                "mean": 0.034813925570228055
+            },
+            "disparate_impact": {
+                "min": 1.024390243902439,
+                "max": 1.024390243902439,
+                "mean": 1.024390243902439
+            },
+            "theil_index": {
+                "min": 0.06149493598848858,
+                "max": 0.06149493598848858,
+                "mean": 0.06149493598848858
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.755,
+                "max": 0.755,
+                "mean": 0.755
+            },
+            "precision": {
+                "min": 0.7705882352941177,
+                "max": 0.7705882352941177,
+                "mean": 0.7705882352941177
+            },
+            "recall": {
+                "min": 0.9290780141843972,
+                "max": 0.9290780141843972,
+                "mean": 0.9290780141843972
+            },
+            "f1_score": {
+                "min": 0.842443729903537,
+                "max": 0.842443729903537,
+                "mean": 0.842443729903537
+            },
+            "auc": {
+                "min": 0.6340305325159274,
+                "max": 0.6340305325159274,
+                "mean": 0.6340305325159274
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.08184523809523814,
+                "max": -0.08184523809523814,
+                "mean": -0.08184523809523814
+            },
+            "equal_opportunity_difference": {
+                "min": -0.023682200152788435,
+                "max": -0.023682200152788435,
+                "mean": -0.023682200152788435
+            },
+            "average_odds_difference": {
+                "min": -0.1087798755865983,
+                "max": -0.1087798755865983,
+                "mean": -0.1087798755865983
+            },
+            "disparate_impact": {
+                "min": 0.9051724137931034,
+                "max": 0.9051724137931034,
+                "mean": 0.9051724137931034
+            },
+            "theil_index": {
+                "min": 0.10068916248583083,
+                "max": 0.10068916248583083,
+                "mean": 0.10068916248583083
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.79,
+                "max": 0.79,
+                "mean": 0.79
+            },
+            "precision": {
+                "min": 0.8235294117647058,
+                "max": 0.8235294117647058,
+                "mean": 0.8235294117647058
+            },
+            "recall": {
+                "min": 0.8936170212765957,
+                "max": 0.8936170212765957,
+                "mean": 0.8936170212765957
+            },
+            "f1_score": {
+                "min": 0.8571428571428571,
+                "max": 0.8571428571428571,
+                "mean": 0.8571428571428571
+            },
+            "auc": {
+                "min": 0.717994951316264,
+                "max": 0.717994951316264,
+                "mean": 0.717994951316264
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.2410714285714286,
+                "max": -0.2410714285714286,
+                "mean": -0.2410714285714286
+            },
+            "equal_opportunity_difference": {
+                "min": -0.19709702062643242,
+                "max": -0.19709702062643242,
+                "mean": -0.19709702062643242
+            },
+            "average_odds_difference": {
+                "min": -0.2536505511295427,
+                "max": -0.2536505511295427,
+                "mean": -0.2536505511295427
+            },
+            "disparate_impact": {
+                "min": 0.7,
+                "max": 0.7,
+                "mean": 0.7
+            },
+            "theil_index": {
+                "min": 0.11828744918846303,
+                "max": 0.11828744918846303,
+                "mean": 0.11828744918846303
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.75,
+                "max": 0.75,
+                "mean": 0.75
+            },
+            "precision": {
+                "min": 0.7660818713450293,
+                "max": 0.7660818713450293,
+                "mean": 0.7660818713450293
+            },
+            "recall": {
+                "min": 0.9290780141843972,
+                "max": 0.9290780141843972,
+                "mean": 0.9290780141843972
+            },
+            "f1_score": {
+                "min": 0.8397435897435898,
+                "max": 0.8397435897435898,
+                "mean": 0.8397435897435898
+            },
+            "auc": {
+                "min": 0.625555956244741,
+                "max": 0.625555956244741,
+                "mean": 0.625555956244741
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1518324607329843,
+                "max": -0.1518324607329843,
+                "mean": -0.1518324607329843
+            },
+            "equal_opportunity_difference": {
+                "min": -0.07518796992481203,
+                "max": -0.07518796992481203,
+                "mean": -0.07518796992481203
+            },
+            "average_odds_difference": {
+                "min": -0.20138708841068187,
+                "max": -0.20138708841068187,
+                "mean": -0.20138708841068187
+            },
+            "disparate_impact": {
+                "min": 0.8481675392670157,
+                "max": 0.8481675392670157,
+                "mean": 0.8481675392670157
+            },
+            "theil_index": {
+                "min": 0.10133272912395277,
+                "max": 0.10133272912395277,
+                "mean": 0.10133272912395277
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.785,
+                "max": 0.785,
+                "mean": 0.785
+            },
+            "precision": {
+                "min": 0.80625,
+                "max": 0.80625,
+                "mean": 0.80625
+            },
+            "recall": {
+                "min": 0.9148936170212766,
+                "max": 0.9148936170212766,
+                "mean": 0.9148936170212766
+            },
+            "f1_score": {
+                "min": 0.8571428571428572,
+                "max": 0.8571428571428572,
+                "mean": 0.8571428571428572
+            },
+            "auc": {
+                "min": 0.6947349441038586,
+                "max": 0.6947349441038586,
+                "mean": 0.6947349441038586
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.09307737056428156,
+                "max": -0.09307737056428156,
+                "mean": -0.09307737056428156
+            },
+            "equal_opportunity_difference": {
+                "min": 0.042293233082706716,
+                "max": 0.042293233082706716,
+                "mean": 0.042293233082706716
+            },
+            "average_odds_difference": {
+                "min": -0.2202326938034742,
+                "max": -0.2202326938034742,
+                "mean": -0.2202326938034742
+            },
+            "disparate_impact": {
+                "min": 0.8952879581151832,
+                "max": 0.8952879581151832,
+                "mean": 0.8952879581151832
+            },
+            "theil_index": {
+                "min": 0.10547908510923738,
+                "max": 0.10547908510923738,
+                "mean": 0.10547908510923738
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.75,
+                "max": 0.79,
+                "mean": 0.7725
+            },
+            "precision": {
+                "min": 0.7861635220125787,
+                "max": 0.8152866242038217,
+                "mean": 0.8022373112206065
+            },
+            "recall": {
+                "min": 0.8865248226950354,
+                "max": 0.9148936170212766,
+                "mean": 0.898936170212766
+            },
+            "f1_score": {
+                "min": 0.8333333333333334,
+                "max": 0.8600000000000001,
+                "mean": 0.8478299776286354
+            },
+            "auc": {
+                "min": 0.6551268181271788,
+                "max": 0.7081379973554514,
+                "mean": 0.6846375766318067
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.42559523809523814,
+                "max": -0.23958333333333337,
+                "mean": -0.31733630952380953
+            },
+            "equal_opportunity_difference": {
+                "min": -0.45798319327731096,
+                "max": -0.22230710466004577,
+                "mean": -0.32457983193277307
+            },
+            "average_odds_difference": {
+                "min": -0.39531812725090043,
+                "max": -0.23666375641165552,
+                "mean": -0.3005552220888355
+            },
+            "disparate_impact": {
+                "min": 0.506896551724138,
+                "max": 0.7125,
+                "mean": 0.6235991379310345
+            },
+            "theil_index": {
+                "min": 0.10459675712407016,
+                "max": 0.1300333509060865,
+                "mean": 0.11805195554631906
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.755,
+                "max": 0.755,
+                "mean": 0.755
+            },
+            "precision": {
+                "min": 0.7705882352941177,
+                "max": 0.7705882352941177,
+                "mean": 0.7705882352941177
+            },
+            "recall": {
+                "min": 0.9290780141843972,
+                "max": 0.9290780141843972,
+                "mean": 0.9290780141843972
+            },
+            "f1_score": {
+                "min": 0.842443729903537,
+                "max": 0.842443729903537,
+                "mean": 0.842443729903537
+            },
+            "auc": {
+                "min": 0.6340305325159274,
+                "max": 0.6340305325159274,
+                "mean": 0.6340305325159274
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.08184523809523814,
+                "max": -0.08184523809523814,
+                "mean": -0.08184523809523814
+            },
+            "equal_opportunity_difference": {
+                "min": -0.023682200152788435,
+                "max": -0.023682200152788435,
+                "mean": -0.023682200152788435
+            },
+            "average_odds_difference": {
+                "min": -0.1087798755865983,
+                "max": -0.1087798755865983,
+                "mean": -0.1087798755865983
+            },
+            "disparate_impact": {
+                "min": 0.9051724137931034,
+                "max": 0.9051724137931034,
+                "mean": 0.9051724137931034
+            },
+            "theil_index": {
+                "min": 0.10068916248583083,
+                "max": 0.10068916248583083,
+                "mean": 0.10068916248583083
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.775,
+                "max": 0.79,
+                "mean": 0.7825
+            },
+            "precision": {
+                "min": 0.7891566265060241,
+                "max": 0.8074534161490683,
+                "mean": 0.7982341356824773
+            },
+            "recall": {
+                "min": 0.9219858156028369,
+                "max": 0.9290780141843972,
+                "mean": 0.925531914893617
+            },
+            "f1_score": {
+                "min": 0.8534201954397393,
+                "max": 0.8609271523178808,
+                "mean": 0.8571567247737449
+            },
+            "auc": {
+                "min": 0.6679288376006732,
+                "max": 0.6982810433946387,
+                "mean": 0.683104940497656
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.2142857142857143,
+                "max": -0.11458333333333337,
+                "mean": -0.1640625
+            },
+            "equal_opportunity_difference": {
+                "min": -0.17685255920550036,
+                "max": -0.07754010695187163,
+                "mean": -0.11373185637891517
+            },
+            "average_odds_difference": {
+                "min": -0.2550965840881807,
+                "max": -0.09721161191749422,
+                "mean": -0.1828863363527229
+            },
+            "disparate_impact": {
+                "min": 0.7446808510638298,
+                "max": 0.8624999999999999,
+                "mean": 0.8056413666121113
+            },
+            "theil_index": {
+                "min": 0.09629229426709461,
+                "max": 0.1017107680854706,
+                "mean": 0.09897427863929953
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.RICH_SUBGROUP_FAIRNESS",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.76,
+                "max": 0.76,
+                "mean": 0.76
+            },
+            "precision": {
+                "min": 0.8079470198675497,
+                "max": 0.8079470198675497,
+                "mean": 0.8079470198675497
+            },
+            "recall": {
+                "min": 0.8652482269503546,
+                "max": 0.8652482269503546,
+                "mean": 0.8652482269503546
+            },
+            "f1_score": {
+                "min": 0.8356164383561644,
+                "max": 0.8356164383561644,
+                "mean": 0.8356164383561644
+            },
+            "auc": {
+                "min": 0.6868614016107706,
+                "max": 0.6868614016107706,
+                "mean": 0.6868614016107706
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1919642857142857,
+                "max": -0.1919642857142857,
+                "mean": -0.1919642857142857
+            },
+            "equal_opportunity_difference": {
+                "min": -0.10962566844919786,
+                "max": -0.10962566844919786,
+                "mean": -0.10962566844919786
+            },
+            "average_odds_difference": {
+                "min": -0.23032303830623155,
+                "max": -0.23032303830623155,
+                "mean": -0.23032303830623155
+            },
+            "disparate_impact": {
+                "min": 0.7556818181818182,
+                "max": 0.7556818181818182,
+                "mean": 0.7556818181818182
+            },
+            "theil_index": {
+                "min": 0.1426504856995052,
+                "max": 0.1426504856995052,
+                "mean": 0.1426504856995052
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.EXPONENTIATED_GRADIENT_REDUCTION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.785,
+                "max": 0.785,
+                "mean": 0.785
+            },
+            "precision": {
+                "min": 0.80625,
+                "max": 0.80625,
+                "mean": 0.80625
+            },
+            "recall": {
+                "min": 0.9148936170212766,
+                "max": 0.9148936170212766,
+                "mean": 0.9148936170212766
+            },
+            "f1_score": {
+                "min": 0.8571428571428572,
+                "max": 0.8571428571428572,
+                "mean": 0.8571428571428572
+            },
+            "auc": {
+                "min": 0.6947349441038586,
+                "max": 0.6947349441038586,
+                "mean": 0.6947349441038586
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1339285714285714,
+                "max": -0.1339285714285714,
+                "mean": -0.1339285714285714
+            },
+            "equal_opportunity_difference": {
+                "min": -0.11459129106187926,
+                "max": -0.11459129106187926,
+                "mean": -0.11459129106187926
+            },
+            "average_odds_difference": {
+                "min": -0.13280584961257225,
+                "max": -0.13280584961257225,
+                "mean": -0.13280584961257225
+            },
+            "disparate_impact": {
+                "min": 0.8369565217391305,
+                "max": 0.8369565217391305,
+                "mean": 0.8369565217391305
+            },
+            "theil_index": {
+                "min": 0.10547908510923738,
+                "max": 0.10547908510923738,
+                "mean": 0.10547908510923738
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.785,
+                "max": 0.785,
+                "mean": 0.785
+            },
+            "precision": {
+                "min": 0.80625,
+                "max": 0.80625,
+                "mean": 0.80625
+            },
+            "recall": {
+                "min": 0.9148936170212766,
+                "max": 0.9148936170212766,
+                "mean": 0.9148936170212766
+            },
+            "f1_score": {
+                "min": 0.8571428571428572,
+                "max": 0.8571428571428572,
+                "mean": 0.8571428571428572
+            },
+            "auc": {
+                "min": 0.6947349441038586,
+                "max": 0.6947349441038586,
+                "mean": 0.6947349441038586
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.09307737056428156,
+                "max": -0.09307737056428156,
+                "mean": -0.09307737056428156
+            },
+            "equal_opportunity_difference": {
+                "min": 0.042293233082706716,
+                "max": 0.042293233082706716,
+                "mean": 0.042293233082706716
+            },
+            "average_odds_difference": {
+                "min": -0.2202326938034742,
+                "max": -0.2202326938034742,
+                "mean": -0.2202326938034742
+            },
+            "disparate_impact": {
+                "min": 0.8952879581151832,
+                "max": 0.8952879581151832,
+                "mean": 0.8952879581151832
+            },
+            "theil_index": {
+                "min": 0.10547908510923738,
+                "max": 0.10547908510923738,
+                "mean": 0.10547908510923738
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.79,
+                "max": 0.79,
+                "mean": 0.79
+            },
+            "precision": {
+                "min": 0.8193548387096774,
+                "max": 0.8193548387096774,
+                "mean": 0.8193548387096774
+            },
+            "recall": {
+                "min": 0.900709219858156,
+                "max": 0.900709219858156,
+                "mean": 0.900709219858156
+            },
+            "f1_score": {
+                "min": 0.8581081081081081,
+                "max": 0.8581081081081081,
+                "mean": 0.8581081081081081
+            },
+            "auc": {
+                "min": 0.7130664743358577,
+                "max": 0.7130664743358577,
+                "mean": 0.7130664743358577
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.11343804537521818,
+                "max": 0.11343804537521818,
+                "mean": 0.11343804537521818
+            },
+            "equal_opportunity_difference": {
+                "min": 0.2922932330827067,
+                "max": 0.2922932330827067,
+                "mean": 0.2922932330827067
+            },
+            "average_odds_difference": {
+                "min": -0.1210947627689915,
+                "max": -0.1210947627689915,
+                "mean": -0.1210947627689915
+            },
+            "disparate_impact": {
+                "min": 1.1701570680628273,
+                "max": 1.1701570680628273,
+                "mean": 1.1701570680628273
+            },
+            "theil_index": {
+                "min": 0.11372566045775966,
+                "max": 0.11372566045775966,
+                "mean": 0.11372566045775966
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.755,
+                "max": 0.755,
+                "mean": 0.755
+            },
+            "precision": {
+                "min": 0.7421052631578947,
+                "max": 0.7421052631578947,
+                "mean": 0.7421052631578947
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.851963746223565,
+                "max": 0.851963746223565,
+                "mean": 0.851963746223565
+            },
+            "auc": {
+                "min": 0.5847457627118644,
+                "max": 0.5847457627118644,
+                "mean": 0.5847457627118644
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.3125,
+                "max": -0.3125,
+                "mean": -0.3125
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": -0.5,
+                "max": -0.5,
+                "mean": -0.5
+            },
+            "disparate_impact": {
+                "min": 0.6875,
+                "max": 0.6875,
+                "mean": 0.6875
+            },
+            "theil_index": {
+                "min": 0.053669384520576464,
+                "max": 0.053669384520576464,
+                "mean": 0.053669384520576464
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.73,
+                "max": 0.76,
+                "mean": 0.7416666666666667
+            },
+            "precision": {
+                "min": 0.7604790419161677,
+                "max": 0.7888198757763976,
+                "mean": 0.7759266434502644
+            },
+            "recall": {
+                "min": 0.8723404255319149,
+                "max": 0.900709219858156,
+                "mean": 0.8912529550827423
+            },
+            "f1_score": {
+                "min": 0.8227424749163879,
+                "max": 0.8410596026490067,
+                "mean": 0.8294924674135731
+            },
+            "auc": {
+                "min": 0.6113715590816204,
+                "max": 0.662219016708739,
+                "mean": 0.6377168730215972
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.40029761904761907,
+                "max": -0.34523809523809523,
+                "mean": -0.36904761904761907
+            },
+            "equal_opportunity_difference": {
+                "min": -0.3873185637891521,
+                "max": -0.36707410236822,
+                "mean": -0.3738222561751974
+            },
+            "average_odds_difference": {
+                "min": -0.4100676634290079,
+                "max": -0.30998581250682095,
+                "mean": -0.356979155298483
+            },
+            "disparate_impact": {
+                "min": 0.5393835616438356,
+                "max": 0.595,
+                "mean": 0.5753109524728278
+            },
+            "theil_index": {
+                "min": 0.11893531236874912,
+                "max": 0.14201587770433366,
+                "mean": 0.1280317970584543
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.8,
+                "max": 0.915,
+                "mean": 0.8733333333333334
+            },
+            "precision": {
+                "min": 0.9696969696969697,
+                "max": 0.9902912621359223,
+                "mean": 0.9788502439442973
+            },
+            "recall": {
+                "min": 0.723404255319149,
+                "max": 0.9078014184397163,
+                "mean": 0.8392434988179669
+            },
+            "f1_score": {
+                "min": 0.8360655737704918,
+                "max": 0.9377289377289377,
+                "mean": 0.9010541804130688
+            },
+            "auc": {
+                "min": 0.8532275513883881,
+                "max": 0.9200024041351123,
+                "mean": 0.8970228793524863
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.16815476190476186,
+                "max": 0.24255952380952384,
+                "mean": 0.1974206349206349
+            },
+            "equal_opportunity_difference": {
+                "min": 0.10924369747899154,
+                "max": 0.32773109243697474,
+                "mean": 0.19047619047619044
+            },
+            "average_odds_difference": {
+                "min": 0.21386554621848736,
+                "max": 0.2546218487394958,
+                "mean": 0.22857142857142854
+            },
+            "disparate_impact": {
+                "min": 1.2742718446601942,
+                "max": 1.5093750000000001,
+                "mean": 1.357127564572266
+            },
+            "theil_index": {
+                "min": 0.07507628114266106,
+                "max": 0.21927840391515802,
+                "mean": 0.1279344837466078
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.73,
+                "max": 0.73,
+                "mean": 0.73
+            },
+            "precision": {
+                "min": 0.7543859649122807,
+                "max": 0.7543859649122807,
+                "mean": 0.7543859649122807
+            },
+            "recall": {
+                "min": 0.9148936170212766,
+                "max": 0.9148936170212766,
+                "mean": 0.9148936170212766
+            },
+            "f1_score": {
+                "min": 0.8269230769230769,
+                "max": 0.8269230769230769,
+                "mean": 0.8269230769230769
+            },
+            "auc": {
+                "min": 0.6015146051208078,
+                "max": 0.6015146051208078,
+                "mean": 0.6015146051208078
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.03548574752763234,
+                "max": -0.03548574752763234,
+                "mean": -0.03548574752763234
+            },
+            "equal_opportunity_difference": {
+                "min": 0.042293233082706716,
+                "max": 0.042293233082706716,
+                "mean": 0.042293233082706716
+            },
+            "average_odds_difference": {
+                "min": -0.1254051075965777,
+                "max": -0.1254051075965777,
+                "mean": -0.1254051075965777
+            },
+            "disparate_impact": {
+                "min": 0.9600785340314136,
+                "max": 0.9600785340314136,
+                "mean": 0.9600785340314136
+            },
+            "theil_index": {
+                "min": 0.11338746269890836,
+                "max": 0.11338746269890836,
+                "mean": 0.11338746269890836
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.775,
+                "max": 0.775,
+                "mean": 0.775
+            },
+            "precision": {
+                "min": 0.8,
+                "max": 0.8,
+                "mean": 0.8
+            },
+            "recall": {
+                "min": 0.9078014184397163,
+                "max": 0.9078014184397163,
+                "mean": 0.9078014184397163
+            },
+            "f1_score": {
+                "min": 0.8504983388704319,
+                "max": 0.8504983388704319,
+                "mean": 0.8504983388704319
+            },
+            "auc": {
+                "min": 0.682714268541892,
+                "max": 0.682714268541892,
+                "mean": 0.682714268541892
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.059523809523809534,
+                "max": -0.059523809523809534,
+                "mean": -0.059523809523809534
+            },
+            "equal_opportunity_difference": {
+                "min": -0.05233002291825817,
+                "max": -0.05233002291825817,
+                "mean": -0.05233002291825817
+            },
+            "average_odds_difference": {
+                "min": -0.05167521554076171,
+                "max": -0.05167521554076171,
+                "mean": -0.05167521554076171
+            },
+            "disparate_impact": {
+                "min": 0.9264705882352942,
+                "max": 0.9264705882352942,
+                "mean": 0.9264705882352942
+            },
+            "theil_index": {
+                "min": 0.11180919634722777,
+                "max": 0.11180919634722777,
+                "mean": 0.11180919634722777
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.73,
+                "max": 0.73,
+                "mean": 0.73
+            },
+            "precision": {
+                "min": 0.7543859649122807,
+                "max": 0.7543859649122807,
+                "mean": 0.7543859649122807
+            },
+            "recall": {
+                "min": 0.9148936170212766,
+                "max": 0.9148936170212766,
+                "mean": 0.9148936170212766
+            },
+            "f1_score": {
+                "min": 0.8269230769230769,
+                "max": 0.8269230769230769,
+                "mean": 0.8269230769230769
+            },
+            "auc": {
+                "min": 0.6015146051208078,
+                "max": 0.6015146051208078,
+                "mean": 0.6015146051208078
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.03548574752763234,
+                "max": -0.03548574752763234,
+                "mean": -0.03548574752763234
+            },
+            "equal_opportunity_difference": {
+                "min": 0.042293233082706716,
+                "max": 0.042293233082706716,
+                "mean": 0.042293233082706716
+            },
+            "average_odds_difference": {
+                "min": -0.1254051075965777,
+                "max": -0.1254051075965777,
+                "mean": -0.1254051075965777
+            },
+            "disparate_impact": {
+                "min": 0.9600785340314136,
+                "max": 0.9600785340314136,
+                "mean": 0.9600785340314136
+            },
+            "theil_index": {
+                "min": 0.11338746269890836,
+                "max": 0.11338746269890836,
+                "mean": 0.11338746269890836
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.755,
+                "max": 0.755,
+                "mean": 0.755
+            },
+            "precision": {
+                "min": 0.7421052631578947,
+                "max": 0.7421052631578947,
+                "mean": 0.7421052631578947
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.851963746223565,
+                "max": 0.851963746223565,
+                "mean": 0.851963746223565
+            },
+            "auc": {
+                "min": 0.5847457627118644,
+                "max": 0.5847457627118644,
+                "mean": 0.5847457627118644
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.3125,
+                "max": -0.3125,
+                "mean": -0.3125
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": -0.5,
+                "max": -0.5,
+                "mean": -0.5
+            },
+            "disparate_impact": {
+                "min": 0.6875,
+                "max": 0.6875,
+                "mean": 0.6875
+            },
+            "theil_index": {
+                "min": 0.053669384520576464,
+                "max": 0.053669384520576464,
+                "mean": 0.053669384520576464
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.PREJUDICE_REMOVER",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.735,
+                "max": 0.735,
+                "mean": 0.735
+            },
+            "precision": {
+                "min": 0.7682926829268293,
+                "max": 0.7682926829268293,
+                "mean": 0.7682926829268293
+            },
+            "recall": {
+                "min": 0.8936170212765957,
+                "max": 0.8936170212765957,
+                "mean": 0.8936170212765957
+            },
+            "f1_score": {
+                "min": 0.8262295081967213,
+                "max": 0.8262295081967213,
+                "mean": 0.8262295081967213
+            },
+            "auc": {
+                "min": 0.6247746123332132,
+                "max": 0.6247746123332132,
+                "mean": 0.6247746123332132
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.04421175101803376,
+                "max": 0.04421175101803376,
+                "mean": 0.04421175101803376
+            },
+            "equal_opportunity_difference": {
+                "min": 0.1522556390977443,
+                "max": 0.1522556390977443,
+                "mean": 0.1522556390977443
+            },
+            "average_odds_difference": {
+                "min": -0.10490666320974851,
+                "max": -0.10490666320974851,
+                "mean": -0.10490666320974851
+            },
+            "disparate_impact": {
+                "min": 1.0568436798803291,
+                "max": 1.0568436798803291,
+                "mean": 1.0568436798803291
+            },
+            "theil_index": {
+                "min": 0.12737512747606078,
+                "max": 0.12737512747606078,
+                "mean": 0.12737512747606078
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.75,
+                "max": 0.75,
+                "mean": 0.75
+            },
+            "precision": {
+                "min": 0.7692307692307693,
+                "max": 0.7692307692307693,
+                "mean": 0.7692307692307693
+            },
+            "recall": {
+                "min": 0.9219858156028369,
+                "max": 0.9219858156028369,
+                "mean": 0.9219858156028369
+            },
+            "f1_score": {
+                "min": 0.8387096774193548,
+                "max": 0.8387096774193548,
+                "mean": 0.8387096774193548
+            },
+            "auc": {
+                "min": 0.6304844332251472,
+                "max": 0.6304844332251472,
+                "mean": 0.6304844332251472
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.22470238095238093,
+                "max": -0.22470238095238093,
+                "mean": -0.22470238095238093
+            },
+            "equal_opportunity_difference": {
+                "min": -0.12299465240641705,
+                "max": -0.12299465240641705,
+                "mean": -0.12299465240641705
+            },
+            "average_odds_difference": {
+                "min": -0.2788442649787187,
+                "max": -0.2788442649787187,
+                "mean": -0.2788442649787187
+            },
+            "disparate_impact": {
+                "min": 0.7449324324324325,
+                "max": 0.7449324324324325,
+                "mean": 0.7449324324324325
+            },
+            "theil_index": {
+                "min": 0.10610103620620884,
+                "max": 0.10610103620620884,
+                "mean": 0.10610103620620884
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.99,
+                "max": 1.0,
+                "mean": 0.995
+            },
+            "precision": {
+                "min": 0.986013986013986,
+                "max": 1.0,
+                "mean": 0.9929823697429332
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.9929577464788732,
+                "max": 1.0,
+                "mean": 0.9964726521674214
+            },
+            "auc": {
+                "min": 0.983050847457627,
+                "max": 1.0,
+                "mean": 0.9915254237288136
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.02083333333333337,
+                "max": 0.04166666666666663,
+                "mean": 0.01041666666666663
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.1,
+                "mean": 0.05
+            },
+            "disparate_impact": {
+                "min": 0.9705882352941176,
+                "max": 1.0588235294117647,
+                "mean": 1.0147058823529411
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.003775355890593197,
+                "mean": 0.0018985616527504485
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.82,
+                "max": 0.93,
+                "mean": 0.8925000000000001
+            },
+            "precision": {
+                "min": 0.7966101694915254,
+                "max": 0.9096774193548387,
+                "mean": 0.8700382895841036
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.8867924528301886,
+                "max": 0.9527027027027027,
+                "mean": 0.929894678700548
+            },
+            "auc": {
+                "min": 0.6949152542372881,
+                "max": 0.8813559322033898,
+                "mean": 0.8177966101694916
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.11925538103548572,
+                "max": -0.004072134962187279,
+                "mean": -0.07998836532867942
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.1206896551724138,
+                "max": 0.3103448275862069,
+                "mean": 0.1853448275862069
+            },
+            "disparate_impact": {
+                "min": 0.8658376963350786,
+                "max": 0.9954188481675393,
+                "mean": 0.9100130890052357
+            },
+            "theil_index": {
+                "min": 0.02303350599197242,
+                "max": 0.04595419287969813,
+                "mean": 0.03135792730677286
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.PREJUDICE_REMOVER",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.705,
+                "max": 0.705,
+                "mean": 0.705
+            },
+            "precision": {
+                "min": 0.7440476190476191,
+                "max": 0.7440476190476191,
+                "mean": 0.7440476190476191
+            },
+            "recall": {
+                "min": 0.8865248226950354,
+                "max": 0.8865248226950354,
+                "mean": 0.8865248226950354
+            },
+            "f1_score": {
+                "min": 0.8090614886731392,
+                "max": 0.8090614886731392,
+                "mean": 0.8090614886731392
+            },
+            "auc": {
+                "min": 0.5788556316865008,
+                "max": 0.5788556316865008,
+                "mean": 0.5788556316865008
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.36755952380952384,
+                "max": -0.36755952380952384,
+                "mean": -0.36755952380952384
+            },
+            "equal_opportunity_difference": {
+                "min": -0.29640947288006114,
+                "max": -0.29640947288006114,
+                "mean": -0.29640947288006114
+            },
+            "average_odds_difference": {
+                "min": -0.406368001746153,
+                "max": -0.406368001746153,
+                "mean": -0.406368001746153
+            },
+            "disparate_impact": {
+                "min": 0.5910596026490066,
+                "max": 0.5910596026490066,
+                "mean": 0.5910596026490066
+            },
+            "theil_index": {
+                "min": 0.1359693646091683,
+                "max": 0.1359693646091683,
+                "mean": 0.1359693646091683
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.013494318181818232,
+                "max": -0.013494318181818232,
+                "mean": -0.013494318181818232
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.9805924412665985,
+                "max": 0.9805924412665985,
+                "mean": 0.9805924412665985
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.715,
+                "max": 0.715,
+                "mean": 0.715
+            },
+            "precision": {
+                "min": 0.7142857142857143,
+                "max": 0.7142857142857143,
+                "mean": 0.7142857142857143
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.8308605341246291,
+                "max": 0.8308605341246291,
+                "mean": 0.8308605341246291
+            },
+            "auc": {
+                "min": 0.5218776295227792,
+                "max": 0.5218776295227792,
+                "mean": 0.5218776295227792
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.020942408376963373,
+                "max": -0.020942408376963373,
+                "mean": -0.020942408376963373
+            },
+            "equal_opportunity_difference": {
+                "min": -0.007518796992481258,
+                "max": -0.007518796992481258,
+                "mean": -0.007518796992481258
+            },
+            "average_odds_difference": {
+                "min": -0.029621467461757867,
+                "max": -0.029621467461757867,
+                "mean": -0.029621467461757867
+            },
+            "disparate_impact": {
+                "min": 0.9790575916230366,
+                "max": 0.9790575916230366,
+                "mean": 0.9790575916230366
+            },
+            "theil_index": {
+                "min": 0.06149493598848858,
+                "max": 0.06149493598848858,
+                "mean": 0.06149493598848858
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.505,
+                "max": 0.54,
+                "mean": 0.52125
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 0.2978723404255319,
+                "max": 0.3475177304964539,
+                "mean": 0.32092198581560283
+            },
+            "f1_score": {
+                "min": 0.45901639344262296,
+                "max": 0.5157894736842106,
+                "mean": 0.4856150381070444
+            },
+            "auc": {
+                "min": 0.648936170212766,
+                "max": 0.6737588652482269,
+                "mean": 0.6604609929078014
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.012798138452588703,
+                "max": 0.02385107620709717,
+                "mean": 0.004217568353694023
+            },
+            "equal_opportunity_difference": {
+                "min": 0.050751879699248104,
+                "max": 0.10338345864661652,
+                "mean": 0.07518796992481201
+            },
+            "average_odds_difference": {
+                "min": 0.025375939849624052,
+                "max": 0.05169172932330826,
+                "mean": 0.037593984962406006
+            },
+            "disparate_impact": {
+                "min": 0.9424083769633508,
+                "max": 1.1073298429319374,
+                "mean": 1.018979057591623
+            },
+            "theil_index": {
+                "min": 0.6161861394238168,
+                "max": 0.6831968497067771,
+                "mean": 0.651832095959877
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.51,
+                "max": 0.51,
+                "mean": 0.51
+            },
+            "precision": {
+                "min": 0.7128712871287128,
+                "max": 0.7128712871287128,
+                "mean": 0.7128712871287128
+            },
+            "recall": {
+                "min": 0.5106382978723404,
+                "max": 0.5106382978723404,
+                "mean": 0.5106382978723404
+            },
+            "f1_score": {
+                "min": 0.5950413223140495,
+                "max": 0.5950413223140495,
+                "mean": 0.5950413223140495
+            },
+            "auc": {
+                "min": 0.5095564370717633,
+                "max": 0.5095564370717633,
+                "mean": 0.5095564370717633
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.052937754508435186,
+                "max": -0.052937754508435186,
+                "mean": -0.052937754508435186
+            },
+            "equal_opportunity_difference": {
+                "min": -0.12124060150375937,
+                "max": -0.12124060150375937,
+                "mean": -0.12124060150375937
+            },
+            "average_odds_difference": {
+                "min": 0.18937969924812031,
+                "max": 0.18937969924812031,
+                "mean": 0.18937969924812031
+            },
+            "disparate_impact": {
+                "min": 0.9047120418848167,
+                "max": 0.9047120418848167,
+                "mean": 0.9047120418848167
+            },
+            "theil_index": {
+                "min": 0.47440940426718997,
+                "max": 0.47440940426718997,
+                "mean": 0.47440940426718997
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1925538103548574,
+                "max": -0.1925538103548574,
+                "mean": -0.1925538103548574
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.7833769633507854,
+                "max": 0.7833769633507854,
+                "mean": 0.7833769633507854
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.73,
+                "max": 0.73,
+                "mean": 0.73
+            },
+            "precision": {
+                "min": 0.7514450867052023,
+                "max": 0.7514450867052023,
+                "mean": 0.7514450867052023
+            },
+            "recall": {
+                "min": 0.9219858156028369,
+                "max": 0.9219858156028369,
+                "mean": 0.9219858156028369
+            },
+            "f1_score": {
+                "min": 0.8280254777070063,
+                "max": 0.8280254777070063,
+                "mean": 0.8280254777070063
+            },
+            "auc": {
+                "min": 0.5965861281404015,
+                "max": 0.5965861281404015,
+                "mean": 0.5965861281404015
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1413612565445026,
+                "max": -0.1413612565445026,
+                "mean": -0.1413612565445026
+            },
+            "equal_opportunity_difference": {
+                "min": -0.08270676691729328,
+                "max": -0.08270676691729328,
+                "mean": -0.08270676691729328
+            },
+            "average_odds_difference": {
+                "min": -0.17928441794140526,
+                "max": -0.17928441794140526,
+                "mean": -0.17928441794140526
+            },
+            "disparate_impact": {
+                "min": 0.8586387434554974,
+                "max": 0.8586387434554974,
+                "mean": 0.8586387434554974
+            },
+            "theil_index": {
+                "min": 0.1085224842272238,
+                "max": 0.1085224842272238,
+                "mean": 0.1085224842272238
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.013494318181818232,
+                "max": -0.013494318181818232,
+                "mean": -0.013494318181818232
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.9805924412665985,
+                "max": 0.9805924412665985,
+                "mean": 0.9805924412665985
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.73,
+                "max": 0.73,
+                "mean": 0.73
+            },
+            "precision": {
+                "min": 0.7514450867052023,
+                "max": 0.7514450867052023,
+                "mean": 0.7514450867052023
+            },
+            "recall": {
+                "min": 0.9219858156028369,
+                "max": 0.9219858156028369,
+                "mean": 0.9219858156028369
+            },
+            "f1_score": {
+                "min": 0.8280254777070063,
+                "max": 0.8280254777070063,
+                "mean": 0.8280254777070063
+            },
+            "auc": {
+                "min": 0.5965861281404015,
+                "max": 0.5965861281404015,
+                "mean": 0.5965861281404015
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.025014543339150652,
+                "max": -0.025014543339150652,
+                "mean": -0.025014543339150652
+            },
+            "equal_opportunity_difference": {
+                "min": 0.049812030075187974,
+                "max": 0.049812030075187974,
+                "mean": 0.049812030075187974
+            },
+            "average_odds_difference": {
+                "min": -0.11302501944516463,
+                "max": -0.11302501944516463,
+                "mean": -0.11302501944516463
+            },
+            "disparate_impact": {
+                "min": 0.9718586387434555,
+                "max": 0.9718586387434555,
+                "mean": 0.9718586387434555
+            },
+            "theil_index": {
+                "min": 0.1085224842272238,
+                "max": 0.1085224842272238,
+                "mean": 0.1085224842272238
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.75,
+                "max": 0.75,
+                "mean": 0.75
+            },
+            "precision": {
+                "min": 0.7973856209150327,
+                "max": 0.7973856209150327,
+                "mean": 0.7973856209150327
+            },
+            "recall": {
+                "min": 0.8652482269503546,
+                "max": 0.8652482269503546,
+                "mean": 0.8652482269503546
+            },
+            "f1_score": {
+                "min": 0.8299319727891157,
+                "max": 0.8299319727891157,
+                "mean": 0.8299319727891157
+            },
+            "auc": {
+                "min": 0.6699122490683976,
+                "max": 0.6699122490683976,
+                "mean": 0.6699122490683976
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.4642857142857143,
+                "max": -0.4642857142857143,
+                "mean": -0.4642857142857143
+            },
+            "equal_opportunity_difference": {
+                "min": -0.48663101604278075,
+                "max": -0.48663101604278075,
+                "mean": -0.48663101604278075
+            },
+            "average_odds_difference": {
+                "min": -0.43923387536832914,
+                "max": -0.43923387536832914,
+                "mean": -0.43923387536832914
+            },
+            "disparate_impact": {
+                "min": 0.44680851063829785,
+                "max": 0.44680851063829785,
+                "mean": 0.44680851063829785
+            },
+            "theil_index": {
+                "min": 0.1444439465680836,
+                "max": 0.1444439465680836,
+                "mean": 0.1444439465680836
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.9366500829187396,
+                "max": 0.9366500829187396,
+                "mean": 0.9366500829187396
+            },
+            "precision": {
+                "min": 0.9448689956331878,
+                "max": 0.9448689956331878,
+                "mean": 0.9448689956331878
+            },
+            "recall": {
+                "min": 0.7857467090331366,
+                "max": 0.7857467090331366,
+                "mean": 0.7857467090331366
+            },
+            "f1_score": {
+                "min": 0.8579925650557622,
+                "max": 0.8579925650557622,
+                "mean": 0.8579925650557622
+            },
+            "auc": {
+                "min": 0.8854924717337562,
+                "max": 0.8854924717337562,
+                "mean": 0.8854924717337562
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.07987915464581896,
+                "max": -0.07987915464581896,
+                "mean": -0.07987915464581896
+            },
+            "equal_opportunity_difference": {
+                "min": 0.2524064171122995,
+                "max": 0.2524064171122995,
+                "mean": 0.2524064171122995
+            },
+            "average_odds_difference": {
+                "min": 0.14570127805421926,
+                "max": 0.14570127805421926,
+                "mean": 0.14570127805421926
+            },
+            "disparate_impact": {
+                "min": 0.6502001539758915,
+                "max": 0.6502001539758915,
+                "mean": 0.6502001539758915
+            },
+            "theil_index": {
+                "min": 0.058024076024942674,
+                "max": 0.058024076024942674,
+                "mean": 0.058024076024942674
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.META_FAIR_CLASSIFIER",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.55,
+                "max": 0.75,
+                "mean": 0.64625
+            },
+            "precision": {
+                "min": 0.6545454545454545,
+                "max": 0.7630057803468208,
+                "mean": 0.6974073827011921
+            },
+            "recall": {
+                "min": 0.7659574468085106,
+                "max": 0.950354609929078,
+                "mean": 0.8794326241134752
+            },
+            "f1_score": {
+                "min": 0.7058823529411765,
+                "max": 0.8407643312101911,
+                "mean": 0.7772916260810266
+            },
+            "auc": {
+                "min": 0.3999278759466282,
+                "max": 0.6206274792643347,
+                "mean": 0.4842078374804664
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1413612565445026,
+                "max": 0.3984874927283304,
+                "mean": 0.17437463641652123
+            },
+            "equal_opportunity_difference": {
+                "min": -0.06766917293233088,
+                "max": 0.28195488721804507,
+                "mean": 0.17034774436090222
+            },
+            "average_odds_difference": {
+                "min": -0.18900700025926886,
+                "max": 0.6323567539538502,
+                "mean": 0.16707042390458904
+            },
+            "disparate_impact": {
+                "min": 0.8586387434554974,
+                "max": 1.8965968586387434,
+                "mean": 1.3434461480927449
+            },
+            "theil_index": {
+                "min": 0.09345719691785755,
+                "max": 0.23943371908511174,
+                "mean": 0.14693482518501486
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.84,
+                "max": 0.875,
+                "mean": 0.855
+            },
+            "precision": {
+                "min": 0.815028901734104,
+                "max": 0.8493975903614458,
+                "mean": 0.8296283651458085
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.8980891719745222,
+                "max": 0.9185667752442997,
+                "mean": 0.9068229582568337
+            },
+            "auc": {
+                "min": 0.728813559322034,
+                "max": 0.788135593220339,
+                "mean": 0.7542372881355932
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.0616637579988365,
+                "max": -0.025014543339150652,
+                "mean": -0.040721349621873154
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.21551724137931033,
+                "max": 0.27586206896551724,
+                "mean": 0.25
+            },
+            "disparate_impact": {
+                "min": 0.930628272251309,
+                "max": 0.9718586387434555,
+                "mean": 0.9541884816753927
+            },
+            "theil_index": {
+                "min": 0.036249671134715465,
+                "max": 0.04279301020860828,
+                "mean": 0.04005006347439953
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1925538103548574,
+                "max": -0.1925538103548574,
+                "mean": -0.1925538103548574
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.7833769633507854,
+                "max": 0.7833769633507854,
+                "mean": 0.7833769633507854
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.META_FAIR_CLASSIFIER",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.73,
+                "max": 0.755,
+                "mean": 0.742
+            },
+            "precision": {
+                "min": 0.7277486910994765,
+                "max": 0.7660818713450293,
+                "mean": 0.7465633254562712
+            },
+            "recall": {
+                "min": 0.9290780141843972,
+                "max": 0.9858156028368794,
+                "mean": 0.9617021276595744
+            },
+            "f1_score": {
+                "min": 0.8373493975903614,
+                "max": 0.8473520249221183,
+                "mean": 0.8401822258178666
+            },
+            "auc": {
+                "min": 0.5522298353167447,
+                "max": 0.625555956244741,
+                "mean": 0.5893256401009737
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.15476190476190477,
+                "max": -0.02083333333333337,
+                "mean": -0.09255952380952384
+            },
+            "equal_opportunity_difference": {
+                "min": -0.09434682964094732,
+                "max": 0.01680672268907568,
+                "mean": -0.040794499618029015
+            },
+            "average_odds_difference": {
+                "min": -0.18492851686128997,
+                "max": -0.04057623049219683,
+                "mean": -0.11856051511513695
+            },
+            "disparate_impact": {
+                "min": 0.8289473684210527,
+                "max": 0.9782608695652174,
+                "mean": 0.8978772316485463
+            },
+            "theil_index": {
+                "min": 0.06520567579872755,
+                "max": 0.10133272912395277,
+                "mean": 0.08024189842474007
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.705,
+                "max": 0.705,
+                "mean": 0.705
+            },
+            "precision": {
+                "min": 0.9880952380952381,
+                "max": 0.9880952380952381,
+                "mean": 0.9880952380952381
+            },
+            "recall": {
+                "min": 0.5886524822695035,
+                "max": 0.5886524822695035,
+                "mean": 0.5886524822695035
+            },
+            "f1_score": {
+                "min": 0.7377777777777778,
+                "max": 0.7377777777777778,
+                "mean": 0.7377777777777778
+            },
+            "auc": {
+                "min": 0.7858516648635654,
+                "max": 0.7858516648635654,
+                "mean": 0.7858516648635654
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.025596276905177406,
+                "max": -0.025596276905177406,
+                "mean": -0.025596276905177406
+            },
+            "equal_opportunity_difference": {
+                "min": 0.2265037593984962,
+                "max": 0.2265037593984962,
+                "mean": 0.2265037593984962
+            },
+            "average_odds_difference": {
+                "min": -0.3867481203007519,
+                "max": -0.3867481203007519,
+                "mean": -0.3867481203007519
+            },
+            "disparate_impact": {
+                "min": 0.9424083769633508,
+                "max": 0.9424083769633508,
+                "mean": 0.9424083769633508
+            },
+            "theil_index": {
+                "min": 0.34516710244980714,
+                "max": 0.34516710244980714,
+                "mean": 0.34516710244980714
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.715,
+                "max": 0.715,
+                "mean": 0.715
+            },
+            "precision": {
+                "min": 0.7142857142857143,
+                "max": 0.7142857142857143,
+                "mean": 0.7142857142857143
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.8308605341246291,
+                "max": 0.8308605341246291,
+                "mean": 0.8308605341246291
+            },
+            "auc": {
+                "min": 0.5218776295227792,
+                "max": 0.5218776295227792,
+                "mean": 0.5218776295227792
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.020942408376963373,
+                "max": -0.020942408376963373,
+                "mean": -0.020942408376963373
+            },
+            "equal_opportunity_difference": {
+                "min": -0.007518796992481258,
+                "max": -0.007518796992481258,
+                "mean": -0.007518796992481258
+            },
+            "average_odds_difference": {
+                "min": -0.029621467461757867,
+                "max": -0.029621467461757867,
+                "mean": -0.029621467461757867
+            },
+            "disparate_impact": {
+                "min": 0.9790575916230366,
+                "max": 0.9790575916230366,
+                "mean": 0.9790575916230366
+            },
+            "theil_index": {
+                "min": 0.06149493598848858,
+                "max": 0.06149493598848858,
+                "mean": 0.06149493598848858
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.GRID_SEARCH_REDUCTION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.75,
+                "max": 0.78,
+                "mean": 0.765
+            },
+            "precision": {
+                "min": 0.7791411042944786,
+                "max": 0.793939393939394,
+                "mean": 0.7856863503080272
+            },
+            "recall": {
+                "min": 0.900709219858156,
+                "max": 0.9361702127659575,
+                "mean": 0.9166666666666666
+            },
+            "f1_score": {
+                "min": 0.8355263157894737,
+                "max": 0.8562091503267973,
+                "mean": 0.8460970566344861
+            },
+            "auc": {
+                "min": 0.6452698641663661,
+                "max": 0.6764034138718596,
+                "mean": 0.6596045197740112
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.08260616637579987,
+                "max": -0.05119255381035481,
+                "mean": -0.06951716114019774
+            },
+            "equal_opportunity_difference": {
+                "min": 0.02725563909774431,
+                "max": 0.06484962406015038,
+                "mean": 0.04417293233082703
+            },
+            "average_odds_difference": {
+                "min": -0.1932687321752658,
+                "max": -0.16585105003889034,
+                "mean": -0.18265491314493132
+            },
+            "disparate_impact": {
+                "min": 0.9070680628272252,
+                "max": 0.9424083769633508,
+                "mean": 0.9217931937172775
+            },
+            "theil_index": {
+                "min": 0.0932201992882906,
+                "max": 0.12044447566817182,
+                "mean": 0.10761480380323206
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.725,
+                "max": 0.75,
+                "mean": 0.74125
+            },
+            "precision": {
+                "min": 0.7415730337078652,
+                "max": 0.7678571428571429,
+                "mean": 0.7585331843913025
+            },
+            "recall": {
+                "min": 0.9148936170212766,
+                "max": 0.9361702127659575,
+                "mean": 0.9290780141843972
+            },
+            "f1_score": {
+                "min": 0.8275862068965518,
+                "max": 0.8397435897435898,
+                "mean": 0.8350941227615148
+            },
+            "auc": {
+                "min": 0.5782545979084024,
+                "max": 0.626938333934367,
+                "mean": 0.6107254477701647
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.05119255381035481,
+                "max": 0.0011634671320536194,
+                "mean": -0.02632344386271082
+            },
+            "equal_opportunity_difference": {
+                "min": 0.042293233082706716,
+                "max": 0.06484962406015038,
+                "mean": 0.05733082706766915
+            },
+            "average_odds_difference": {
+                "min": -0.15126717656209493,
+                "max": -0.07964415348716619,
+                "mean": -0.12004148301788957
+            },
+            "disparate_impact": {
+                "min": 0.9424083769633508,
+                "max": 1.0013089005235603,
+                "mean": 0.9703861256544503
+            },
+            "theil_index": {
+                "min": 0.09716888365630784,
+                "max": 0.11154127014009532,
+                "mean": 0.10234247498575727
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.51,
+                "max": 0.51,
+                "mean": 0.51
+            },
+            "precision": {
+                "min": 0.7128712871287128,
+                "max": 0.7128712871287128,
+                "mean": 0.7128712871287128
+            },
+            "recall": {
+                "min": 0.5106382978723404,
+                "max": 0.5106382978723404,
+                "mean": 0.5106382978723404
+            },
+            "f1_score": {
+                "min": 0.5950413223140495,
+                "max": 0.5950413223140495,
+                "mean": 0.5950413223140495
+            },
+            "auc": {
+                "min": 0.5095564370717633,
+                "max": 0.5095564370717633,
+                "mean": 0.5095564370717633
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.052937754508435186,
+                "max": -0.052937754508435186,
+                "mean": -0.052937754508435186
+            },
+            "equal_opportunity_difference": {
+                "min": -0.12124060150375937,
+                "max": -0.12124060150375937,
+                "mean": -0.12124060150375937
+            },
+            "average_odds_difference": {
+                "min": 0.18937969924812031,
+                "max": 0.18937969924812031,
+                "mean": 0.18937969924812031
+            },
+            "disparate_impact": {
+                "min": 0.9047120418848167,
+                "max": 0.9047120418848167,
+                "mean": 0.9047120418848167
+            },
+            "theil_index": {
+                "min": 0.47440940426718997,
+                "max": 0.47440940426718997,
+                "mean": 0.47440940426718997
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.75,
+                "max": 0.8,
+                "mean": 0.774
+            },
+            "precision": {
+                "min": 0.7771084337349398,
+                "max": 0.8136645962732919,
+                "mean": 0.7953966527959175
+            },
+            "recall": {
+                "min": 0.8794326241134752,
+                "max": 0.9361702127659575,
+                "mean": 0.9148936170212766
+            },
+            "f1_score": {
+                "min": 0.8322147651006712,
+                "max": 0.8684210526315789,
+                "mean": 0.8508956010859025
+            },
+            "auc": {
+                "min": 0.64388748647674,
+                "max": 0.7103017189566054,
+                "mean": 0.6760908763072485
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.30208333333333337,
+                "max": -0.18898809523809523,
+                "mean": -0.22886904761904764
+            },
+            "equal_opportunity_difference": {
+                "min": -0.28800611153552336,
+                "max": -0.13980137509549273,
+                "mean": -0.1899923605805959
+            },
+            "average_odds_difference": {
+                "min": -0.30012550474735356,
+                "max": -0.2005511295427262,
+                "mean": -0.24111862926988978
+            },
+            "disparate_impact": {
+                "min": 0.6375,
+                "max": 0.7764084507042254,
+                "mean": 0.7295394176003696
+            },
+            "theil_index": {
+                "min": 0.08922162969700309,
+                "max": 0.1348339307016326,
+                "mean": 0.10733926373842943
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.RICH_SUBGROUP_FAIRNESS",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.76,
+                "max": 0.76,
+                "mean": 0.76
+            },
+            "precision": {
+                "min": 0.8079470198675497,
+                "max": 0.8079470198675497,
+                "mean": 0.8079470198675497
+            },
+            "recall": {
+                "min": 0.8652482269503546,
+                "max": 0.8652482269503546,
+                "mean": 0.8652482269503546
+            },
+            "f1_score": {
+                "min": 0.8356164383561644,
+                "max": 0.8356164383561644,
+                "mean": 0.8356164383561644
+            },
+            "auc": {
+                "min": 0.6868614016107706,
+                "max": 0.6868614016107706,
+                "mean": 0.6868614016107706
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1401977894124491,
+                "max": -0.1401977894124491,
+                "mean": -0.1401977894124491
+            },
+            "equal_opportunity_difference": {
+                "min": -0.010338345864661647,
+                "max": -0.010338345864661647,
+                "mean": -0.010338345864661647
+            },
+            "average_odds_difference": {
+                "min": -0.2637898625875032,
+                "max": -0.2637898625875032,
+                "mean": -0.2637898625875032
+            },
+            "disparate_impact": {
+                "min": 0.8422774869109948,
+                "max": 0.8422774869109948,
+                "mean": 0.8422774869109948
+            },
+            "theil_index": {
+                "min": 0.1426504856995052,
+                "max": 0.1426504856995052,
+                "mean": 0.1426504856995052
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.755,
+                "max": 0.77,
+                "mean": 0.765
+            },
+            "precision": {
+                "min": 0.7771084337349398,
+                "max": 0.7950310559006211,
+                "mean": 0.787375551376073
+            },
+            "recall": {
+                "min": 0.9078014184397163,
+                "max": 0.9290780141843972,
+                "mean": 0.9134751773049645
+            },
+            "f1_score": {
+                "min": 0.8403908794788274,
+                "max": 0.8506493506493507,
+                "mean": 0.8457019463393338
+            },
+            "auc": {
+                "min": 0.64388748647674,
+                "max": 0.6742396922707057,
+                "mean": 0.6618223344151941
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.08784176847004066,
+                "max": 0.038976148923792864,
+                "mean": -0.027690517742873743
+            },
+            "equal_opportunity_difference": {
+                "min": 0.03477443609022557,
+                "max": 0.16729323308270672,
+                "mean": 0.09379699248120296
+            },
+            "average_odds_difference": {
+                "min": -0.20675071298936998,
+                "max": -0.1232499351827846,
+                "mean": -0.16172219341457095
+            },
+            "disparate_impact": {
+                "min": 0.9011780104712043,
+                "max": 1.050112191473448,
+                "mean": 0.9710172026925954
+            },
+            "theil_index": {
+                "min": 0.09860801771962724,
+                "max": 0.11419990647393809,
+                "mean": 0.10965224866306514
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.705,
+                "max": 0.705,
+                "mean": 0.705
+            },
+            "precision": {
+                "min": 0.705,
+                "max": 0.705,
+                "mean": 0.705
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.8269794721407624,
+                "max": 0.8269794721407624,
+                "mean": 0.8269794721407624
+            },
+            "auc": {
+                "min": 0.5,
+                "max": 0.5,
+                "mean": 0.5
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "theil_index": {
+                "min": 0.05728608981403387,
+                "max": 0.05728608981403387,
+                "mean": 0.05728608981403387
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.ADVERSARIAL_DEBIASING",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.295,
+                "max": 0.705,
+                "mean": 0.6316666666666666
+            },
+            "precision": {
+                "min": 0.0,
+                "max": 0.7096774193548387,
+                "mean": 0.5888351254480286
+            },
+            "recall": {
+                "min": 0.0,
+                "max": 1.0,
+                "mean": 0.8167848699763594
+            },
+            "f1_score": {
+                "min": 0.0,
+                "max": 0.8269794721407624,
+                "mean": 0.6841824471300647
+            },
+            "auc": {
+                "min": 0.5,
+                "max": 0.5104579877389109,
+                "mean": 0.5030252033497615
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.0,
+                "max": 0.01041666666666663,
+                "mean": 0.0032242063492063378
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.04201680672268904,
+                "mean": 0.010631525337407688
+            },
+            "average_odds_difference": {
+                "min": -0.008583433373349325,
+                "max": 0.0017024991814907908,
+                "mean": -0.0011468223653097558
+            },
+            "disparate_impact": {
+                "min": 1.0,
+                "max": 1.0108695652173914,
+                "mean": NaN
+            },
+            "theil_index": {
+                "min": 0.05728608981403387,
+                "max": 1.220779922642317,
+                "mean": 0.2629008558685021
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.705,
+                "max": 0.705,
+                "mean": 0.705
+            },
+            "precision": {
+                "min": 0.705,
+                "max": 0.705,
+                "mean": 0.705
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.8269794721407624,
+                "max": 0.8269794721407624,
+                "mean": 0.8269794721407624
+            },
+            "auc": {
+                "min": 0.5,
+                "max": 0.5,
+                "mean": 0.5
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "theil_index": {
+                "min": 0.05728608981403387,
+                "max": 0.05728608981403387,
+                "mean": 0.05728608981403387
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.965,
+                "max": 0.965,
+                "mean": 0.965
+            },
+            "precision": {
+                "min": 0.958904109589041,
+                "max": 0.958904109589041,
+                "mean": 0.958904109589041
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.975609756097561,
+                "max": 0.975609756097561,
+                "mean": 0.975609756097561
+            },
+            "auc": {
+                "min": 0.9456064430821013,
+                "max": 0.9456064430821013,
+                "mean": 0.9456064430821013
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.17261904761904767,
+                "max": 0.17261904761904767,
+                "mean": 0.17261904761904767
+            },
+            "equal_opportunity_difference": {
+                "min": 0.008403361344537785,
+                "max": 0.008403361344537785,
+                "mean": 0.008403361344537785
+            },
+            "average_odds_difference": {
+                "min": 0.3042016806722689,
+                "max": 0.3042016806722689,
+                "mean": 0.3042016806722689
+            },
+            "disparate_impact": {
+                "min": 1.2457627118644068,
+                "max": 1.2457627118644068,
+                "mean": 1.2457627118644068
+            },
+            "theil_index": {
+                "min": 0.0158818565155766,
+                "max": 0.015881856515576605,
+                "mean": 0.015881856515576602
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.013494318181818232,
+                "max": -0.013494318181818232,
+                "mean": -0.013494318181818232
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.9805924412665985,
+                "max": 0.9805924412665985,
+                "mean": 0.9805924412665985
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1103448275862069,
+                "max": -0.1103448275862069,
+                "mean": -0.1103448275862069
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.8620689655172414,
+                "max": 0.8620689655172414,
+                "mean": 0.8620689655172414
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.7955776672194582,
+                "max": 0.7955776672194582,
+                "mean": 0.7955776672194582
+            },
+            "precision": {
+                "min": 0.9732620320855615,
+                "max": 0.9732620320855615,
+                "mean": 0.9732620320855615
+            },
+            "recall": {
+                "min": 0.165229232864276,
+                "max": 0.165229232864276,
+                "mean": 0.165229232864276
+            },
+            "f1_score": {
+                "min": 0.2824990298797051,
+                "max": 0.2824990298797051,
+                "mean": 0.2824990298797051
+            },
+            "auc": {
+                "min": 0.5818838359585923,
+                "max": 0.5818838359585923,
+                "mean": 0.5818838359585923
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.025203516635124573,
+                "max": -0.025203516635124573,
+                "mean": -0.025203516635124573
+            },
+            "equal_opportunity_difference": {
+                "min": 0.04591543415072827,
+                "max": 0.04591543415072827,
+                "mean": 0.04591543415072827
+            },
+            "average_odds_difference": {
+                "min": 0.02271372560371509,
+                "max": 0.02271372560371509,
+                "mean": 0.02271372560371509
+            },
+            "disparate_impact": {
+                "min": 0.49077251207844014,
+                "max": 0.49077251207844014,
+                "mean": 0.49077251207844014
+            },
+            "theil_index": {
+                "min": 0.22783247572263424,
+                "max": 0.22783247572263424,
+                "mean": 0.22783247572263424
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.905,
+                "max": 0.915,
+                "mean": 0.9083333333333333
+            },
+            "precision": {
+                "min": 0.9769230769230769,
+                "max": 0.9919354838709677,
+                "mean": 0.9869313482216708
+            },
+            "recall": {
+                "min": 0.8723404255319149,
+                "max": 0.900709219858156,
+                "mean": 0.8817966903073287
+            },
+            "f1_score": {
+                "min": 0.928301886792453,
+                "max": 0.9372693726937269,
+                "mean": 0.9312910487595443
+            },
+            "auc": {
+                "min": 0.9249308811155188,
+                "max": 0.9276956364947712,
+                "mean": 0.9267740513683537
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.11755952380952384,
+                "max": 0.15625,
+                "mean": 0.13045634920634921
+            },
+            "equal_opportunity_difference": {
+                "min": 0.11764705882352944,
+                "max": 0.1512605042016807,
+                "mean": 0.14005602240896362
+            },
+            "average_odds_difference": {
+                "min": 0.12563025210084033,
+                "max": 0.2088235294117647,
+                "mean": 0.15336134453781514
+            },
+            "disparate_impact": {
+                "min": 1.1955445544554455,
+                "max": 1.25,
+                "mean": 1.2136963696369636
+            },
+            "theil_index": {
+                "min": 0.07857502388712287,
+                "max": 0.09640659272912869,
+                "mean": 0.09046273644846008
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1103448275862069,
+                "max": -0.1103448275862069,
+                "mean": -0.1103448275862069
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.8620689655172414,
+                "max": 0.8620689655172414,
+                "mean": 0.8620689655172414
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.013494318181818232,
+                "max": -0.013494318181818232,
+                "mean": -0.013494318181818232
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.9805924412665985,
+                "max": 0.9805924412665985,
+                "mean": 0.9805924412665985
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.51,
+                "max": 0.51,
+                "mean": 0.51
+            },
+            "precision": {
+                "min": 0.7128712871287128,
+                "max": 0.7128712871287128,
+                "mean": 0.7128712871287128
+            },
+            "recall": {
+                "min": 0.5106382978723404,
+                "max": 0.5106382978723404,
+                "mean": 0.5106382978723404
+            },
+            "f1_score": {
+                "min": 0.5950413223140495,
+                "max": 0.5950413223140495,
+                "mean": 0.5950413223140495
+            },
+            "auc": {
+                "min": 0.5095564370717633,
+                "max": 0.5095564370717633,
+                "mean": 0.5095564370717633
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.03125,
+                "max": 0.03125,
+                "mean": 0.03125
+            },
+            "equal_opportunity_difference": {
+                "min": 0.04125286478227652,
+                "max": 0.04125286478227652,
+                "mean": 0.04125286478227652
+            },
+            "average_odds_difference": {
+                "min": 0.025728473207464797,
+                "max": 0.025728473207464797,
+                "mean": 0.025728473207464797
+            },
+            "disparate_impact": {
+                "min": 1.0625,
+                "max": 1.0625,
+                "mean": 1.0625
+            },
+            "theil_index": {
+                "min": 0.47440940426718997,
+                "max": 0.47440940426718997,
+                "mean": 0.47440940426718997
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.775,
+                "max": 0.775,
+                "mean": 0.775
+            },
+            "precision": {
+                "min": 0.8,
+                "max": 0.8,
+                "mean": 0.8
+            },
+            "recall": {
+                "min": 0.9078014184397163,
+                "max": 0.9078014184397163,
+                "mean": 0.9078014184397163
+            },
+            "f1_score": {
+                "min": 0.8504983388704319,
+                "max": 0.8504983388704319,
+                "mean": 0.8504983388704319
+            },
+            "auc": {
+                "min": 0.682714268541892,
+                "max": 0.682714268541892,
+                "mean": 0.682714268541892
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.059523809523809534,
+                "max": -0.059523809523809534,
+                "mean": -0.059523809523809534
+            },
+            "equal_opportunity_difference": {
+                "min": -0.05233002291825817,
+                "max": -0.05233002291825817,
+                "mean": -0.05233002291825817
+            },
+            "average_odds_difference": {
+                "min": -0.05167521554076171,
+                "max": -0.05167521554076171,
+                "mean": -0.05167521554076171
+            },
+            "disparate_impact": {
+                "min": 0.9264705882352942,
+                "max": 0.9264705882352942,
+                "mean": 0.9264705882352942
+            },
+            "theil_index": {
+                "min": 0.11180919634722777,
+                "max": 0.11180919634722777,
+                "mean": 0.11180919634722777
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.715,
+                "max": 0.715,
+                "mean": 0.715
+            },
+            "precision": {
+                "min": 0.7142857142857143,
+                "max": 0.7142857142857143,
+                "mean": 0.7142857142857143
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.8308605341246291,
+                "max": 0.8308605341246291,
+                "mean": 0.8308605341246291
+            },
+            "auc": {
+                "min": 0.5218776295227792,
+                "max": 0.5218776295227792,
+                "mean": 0.5218776295227792
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.020942408376963373,
+                "max": -0.020942408376963373,
+                "mean": -0.020942408376963373
+            },
+            "equal_opportunity_difference": {
+                "min": -0.007518796992481258,
+                "max": -0.007518796992481258,
+                "mean": -0.007518796992481258
+            },
+            "average_odds_difference": {
+                "min": -0.029621467461757867,
+                "max": -0.029621467461757867,
+                "mean": -0.029621467461757867
+            },
+            "disparate_impact": {
+                "min": 0.9790575916230366,
+                "max": 0.9790575916230366,
+                "mean": 0.9790575916230366
+            },
+            "theil_index": {
+                "min": 0.06149493598848858,
+                "max": 0.06149493598848858,
+                "mean": 0.06149493598848858
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.LEARNING_FAIR_REPRESENTATIONS",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.715,
+                "max": 0.715,
+                "mean": 0.715
+            },
+            "precision": {
+                "min": 0.7142857142857143,
+                "max": 0.7142857142857143,
+                "mean": 0.7142857142857143
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.8308605341246291,
+                "max": 0.8308605341246291,
+                "mean": 0.8308605341246291
+            },
+            "auc": {
+                "min": 0.5218776295227792,
+                "max": 0.5218776295227792,
+                "mean": 0.5218776295227792
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.023809523809523836,
+                "max": 0.023809523809523836,
+                "mean": 0.023809523809523836
+            },
+            "equal_opportunity_difference": {
+                "min": 0.008403361344537785,
+                "max": 0.008403361344537785,
+                "mean": 0.008403361344537785
+            },
+            "average_odds_difference": {
+                "min": 0.034813925570228055,
+                "max": 0.034813925570228055,
+                "mean": 0.034813925570228055
+            },
+            "disparate_impact": {
+                "min": 1.024390243902439,
+                "max": 1.024390243902439,
+                "mean": 1.024390243902439
+            },
+            "theil_index": {
+                "min": 0.06149493598848858,
+                "max": 0.06149493598848858,
+                "mean": 0.06149493598848858
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1103448275862069,
+                "max": -0.1103448275862069,
+                "mean": -0.1103448275862069
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.8620689655172414,
+                "max": 0.8620689655172414,
+                "mean": 0.8620689655172414
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.CALIBRATED_EQUALIZED_ODDS"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.755,
+                "max": 0.755,
+                "mean": 0.755
+            },
+            "precision": {
+                "min": 0.7421052631578947,
+                "max": 0.7421052631578947,
+                "mean": 0.7421052631578947
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 0.851963746223565,
+                "max": 0.851963746223565,
+                "mean": 0.851963746223565
+            },
+            "auc": {
+                "min": 0.5847457627118644,
+                "max": 0.5847457627118644,
+                "mean": 0.5847457627118644
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.3125,
+                "max": -0.3125,
+                "mean": -0.3125
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": -0.5,
+                "max": -0.5,
+                "mean": -0.5
+            },
+            "disparate_impact": {
+                "min": 0.6875,
+                "max": 0.6875,
+                "mean": 0.6875
+            },
+            "theil_index": {
+                "min": 0.053669384520576464,
+                "max": 0.053669384520576464,
+                "mean": 0.053669384520576464
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.18914109657947684,
+                "max": -0.18914109657947684,
+                "mean": -0.18914109657947684
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.38390168970814137,
+                "max": 0.38390168970814137,
+                "mean": 0.38390168970814137
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.ADVERSARIAL_DEBIASING",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.295,
+                "max": 0.705,
+                "mean": 0.5675
+            },
+            "precision": {
+                "min": 0.0,
+                "max": 0.7070707070707071,
+                "mean": 0.5255528880352824
+            },
+            "recall": {
+                "min": 0.0,
+                "max": 1.0,
+                "mean": 0.6719858156028369
+            },
+            "f1_score": {
+                "min": 0.0,
+                "max": 0.8269794721407624,
+                "mean": 0.5863794198765031
+            },
+            "auc": {
+                "min": 0.4746363745642505,
+                "max": 0.5049284769804062,
+                "mean": 0.49489121288616417
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.3036649214659686,
+                "max": 0.0,
+                "mean": -0.07853403141361257
+            },
+            "equal_opportunity_difference": {
+                "min": -0.32330827067669177,
+                "max": 0.0,
+                "mean": -0.08270676691729326
+            },
+            "average_odds_difference": {
+                "min": -0.29096448016593207,
+                "max": 0.0,
+                "mean": -0.07583614207933628
+            },
+            "disparate_impact": {
+                "min": 0.6963350785340314,
+                "max": 1.0,
+                "mean": NaN
+            },
+            "theil_index": {
+                "min": 0.05728608981403387,
+                "max": 1.220779922642317,
+                "mean": 0.40966184523608107
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.8139303482587065,
+                "max": 0.8139303482587065,
+                "mean": 0.8139303482587065
+            },
+            "precision": {
+                "min": 0.6884057971014492,
+                "max": 0.6884057971014492,
+                "mean": 0.6884057971014492
+            },
+            "recall": {
+                "min": 0.43123014071720384,
+                "max": 0.43123014071720384,
+                "mean": 0.43123014071720384
+            },
+            "f1_score": {
+                "min": 0.5302818866871336,
+                "max": 0.5302818866871336,
+                "mean": 0.5302818866871336
+            },
+            "auc": {
+                "min": 0.6841915099961349,
+                "max": 0.6841915099961349,
+                "mean": 0.6841915099961349
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.07529503583370319,
+                "max": -0.07529503583370319,
+                "mean": -0.07529503583370319
+            },
+            "equal_opportunity_difference": {
+                "min": 0.043869537987185014,
+                "max": 0.043869537987185014,
+                "mean": 0.043869537987185014
+            },
+            "average_odds_difference": {
+                "min": 0.015170838687799549,
+                "max": 0.015170838687799549,
+                "mean": 0.015170838687799549
+            },
+            "disparate_impact": {
+                "min": 0.5743709978080047,
+                "max": 0.5743709978080047,
+                "mean": 0.5743709978080047
+            },
+            "theil_index": {
+                "min": 0.16790003821413482,
+                "max": 0.16790003821413482,
+                "mean": 0.16790003821413482
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.ADVERSARIAL_DEBIASING",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.756440022111664,
+                "max": 0.756440022111664,
+                "mean": 0.756440022111664
+            },
+            "precision": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "recall": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "f1_score": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "auc": {
+                "min": 0.5,
+                "max": 0.5,
+                "mean": 0.5
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": NaN,
+                "max": NaN,
+                "mean": NaN
+            },
+            "theil_index": {
+                "min": 0.2791320322918454,
+                "max": 0.2791320322918454,
+                "mean": 0.2791320322918454
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.EXPONENTIATED_GRADIENT_REDUCTION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.775,
+                "max": 0.785,
+                "mean": 0.77875
+            },
+            "precision": {
+                "min": 0.8037974683544303,
+                "max": 0.810126582278481,
+                "mean": 0.8056882413820555
+            },
+            "recall": {
+                "min": 0.900709219858156,
+                "max": 0.9078014184397163,
+                "mean": 0.9042553191489362
+            },
+            "f1_score": {
+                "min": 0.8494983277591973,
+                "max": 0.8561872909698997,
+                "mean": 0.852129319955407
+            },
+            "auc": {
+                "min": 0.6876427455222983,
+                "max": 0.6996634210842649,
+                "mean": 0.691534439235485
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.2198952879581152,
+                "max": -0.2146596858638743,
+                "mean": -0.21858638743455497
+            },
+            "equal_opportunity_difference": {
+                "min": -0.10526315789473684,
+                "max": -0.09774436090225569,
+                "mean": -0.10150375939849626
+            },
+            "average_odds_difference": {
+                "min": -0.29887218045112784,
+                "max": -0.2902514907959554,
+                "mean": -0.2942863624578688
+            },
+            "disparate_impact": {
+                "min": 0.7801047120418848,
+                "max": 0.7853403141361257,
+                "mean": 0.7814136125654451
+            },
+            "theil_index": {
+                "min": 0.11007361131908272,
+                "max": 0.11646206459613292,
+                "mean": 0.1134884115202307
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.RICH_SUBGROUP_FAIRNESS",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.8412382531785517,
+                "max": 0.8412382531785517,
+                "mean": 0.8412382531785517
+            },
+            "precision": {
+                "min": 0.7582491582491583,
+                "max": 0.7582491582491583,
+                "mean": 0.7582491582491583
+            },
+            "recall": {
+                "min": 0.5111211983658648,
+                "max": 0.5111211983658648,
+                "mean": 0.5111211983658648
+            },
+            "f1_score": {
+                "min": 0.6106290672451193,
+                "max": 0.6106290672451193,
+                "mean": 0.6106290672451193
+            },
+            "auc": {
+                "min": 0.72932558018264,
+                "max": 0.72932558018264,
+                "mean": 0.72932558018264
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.13439943857942444,
+                "max": -0.13439943857942444,
+                "mean": -0.13439943857942444
+            },
+            "equal_opportunity_difference": {
+                "min": -0.05378587143293029,
+                "max": -0.05378587143293029,
+                "mean": -0.05378587143293029
+            },
+            "average_odds_difference": {
+                "min": -0.05078049078934477,
+                "max": -0.05078049078934477,
+                "mean": -0.05078049078934477
+            },
+            "disparate_impact": {
+                "min": 0.3526409417913167,
+                "max": 0.3526409417913167,
+                "mean": 0.3526409417913167
+            },
+            "theil_index": {
+                "min": 0.14247585557844955,
+                "max": 0.14247585557844955,
+                "mean": 0.14247585557844955
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.DISPARATE_IMPACT_REMOVER",
+            "algorithm": "Algorithms.LOGISTIC_REGRESSION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.695,
+                "max": 0.695,
+                "mean": 0.695
+            },
+            "precision": {
+                "min": 0.7469135802469136,
+                "max": 0.7469135802469136,
+                "mean": 0.7469135802469136
+            },
+            "recall": {
+                "min": 0.8581560283687943,
+                "max": 0.8581560283687943,
+                "mean": 0.8581560283687943
+            },
+            "f1_score": {
+                "min": 0.7986798679867987,
+                "max": 0.7986798679867987,
+                "mean": 0.7986798679867987
+            },
+            "auc": {
+                "min": 0.581620387065753,
+                "max": 0.581620387065753,
+                "mean": 0.581620387065753
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.48065476190476186,
+                "max": -0.48065476190476186,
+                "mean": -0.48065476190476186
+            },
+            "equal_opportunity_difference": {
+                "min": -0.47822765469824297,
+                "max": -0.47822765469824297,
+                "mean": -0.47822765469824297
+            },
+            "average_odds_difference": {
+                "min": -0.4768689293899378,
+                "max": -0.4768689293899378,
+                "mean": -0.4768689293899378
+            },
+            "disparate_impact": {
+                "min": 0.4580536912751678,
+                "max": 0.4580536912751678,
+                "mean": 0.4580536912751678
+            },
+            "theil_index": {
+                "min": 0.15734049673125902,
+                "max": 0.15734049673125902,
+                "mean": 0.15734049673125902
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.REWEIGHING",
+            "algorithm": "Algorithms.GRADIENT_BOOST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.8621337755666114,
+                "max": 0.8621337755666114,
+                "mean": 0.8621337755666114
+            },
+            "precision": {
+                "min": 0.8091849935316947,
+                "max": 0.8091849935316947,
+                "mean": 0.8091849935316947
+            },
+            "recall": {
+                "min": 0.5678620063549705,
+                "max": 0.5678620063549705,
+                "mean": 0.5678620063549705
+            },
+            "f1_score": {
+                "min": 0.6673779674579888,
+                "max": 0.6673779674579888,
+                "mean": 0.6673779674579888
+            },
+            "auc": {
+                "min": 0.7623729792078857,
+                "max": 0.7623729792078857,
+                "mean": 0.7623729792078857
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.08471927238856222,
+                "max": -0.08471927238856222,
+                "mean": -0.08471927238856222
+            },
+            "equal_opportunity_difference": {
+                "min": 0.10578599990364701,
+                "max": 0.10578599990364701,
+                "mean": 0.10578599990364701
+            },
+            "average_odds_difference": {
+                "min": 0.0533059784457051,
+                "max": 0.0533059784457051,
+                "mean": 0.0533059784457051
+            },
+            "disparate_impact": {
+                "min": 0.5727748059614679,
+                "max": 0.5727748059614679,
+                "mean": 0.5727748059614679
+            },
+            "theil_index": {
+                "min": 0.12416499347214957,
+                "max": 0.12416499347214957,
+                "mean": 0.12416499347214957
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.FOREIGN",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.REJECT_OPTION_CLASSIFICATION"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "precision": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "recall": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "f1_score": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            },
+            "auc": {
+                "min": 1.0,
+                "max": 1.0,
+                "mean": 1.0
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1103448275862069,
+                "max": -0.1103448275862069,
+                "mean": -0.1103448275862069
+            },
+            "equal_opportunity_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "average_odds_difference": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            },
+            "disparate_impact": {
+                "min": 0.8620689655172414,
+                "max": 0.8620689655172414,
+                "mean": 0.8620689655172414
+            },
+            "theil_index": {
+                "min": 0.0,
+                "max": 0.0,
+                "mean": 0.0
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.GRID_SEARCH_REDUCTION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.745,
+                "max": 0.77,
+                "mean": 0.7583333333333333
+            },
+            "precision": {
+                "min": 0.7848101265822784,
+                "max": 0.7924528301886793,
+                "mean": 0.7895579999052477
+            },
+            "recall": {
+                "min": 0.8794326241134752,
+                "max": 0.9148936170212766,
+                "mean": 0.8959810874704491
+            },
+            "f1_score": {
+                "min": 0.8294314381270902,
+                "max": 0.8486842105263158,
+                "mean": 0.8393718828844687
+            },
+            "auc": {
+                "min": 0.6515807188363987,
+                "max": 0.6693112152902994,
+                "mean": 0.6626798092719478
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.30059523809523814,
+                "max": -0.1964285714285714,
+                "mean": -0.2331349206349206
+            },
+            "equal_opportunity_difference": {
+                "min": -0.3300229182582124,
+                "max": -0.19709702062643242,
+                "mean": -0.25375604787369493
+            },
+            "average_odds_difference": {
+                "min": -0.27113390810869803,
+                "max": -0.1629924697151588,
+                "mean": -0.20953108516133725
+            },
+            "disparate_impact": {
+                "min": 0.6517241379310345,
+                "max": 0.7608695652173914,
+                "mean": 0.7226631288672211
+            },
+            "theil_index": {
+                "min": 0.10795533727970433,
+                "max": 0.13562742442728346,
+                "mean": 0.12241898805585673
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "UnbiasInProcAlgorithms.GRID_SEARCH_REDUCTION",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.854947484798231,
+                "max": 0.854947484798231,
+                "mean": 0.854947484798231
+            },
+            "precision": {
+                "min": 0.746541228555617,
+                "max": 0.746541228555617,
+                "mean": 0.746541228555617
+            },
+            "recall": {
+                "min": 0.6123467998184294,
+                "max": 0.6123467998184294,
+                "mean": 0.6123467998184294
+            },
+            "f1_score": {
+                "min": 0.6728179551122194,
+                "max": 0.6728179551122194,
+                "mean": 0.6728179551122194
+            },
+            "auc": {
+                "min": 0.7727036542208194,
+                "max": 0.7727036542208194,
+                "mean": 0.7727036542208194
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.1713273821172704,
+                "max": -0.1713273821172704,
+                "mean": -0.1713273821172704
+            },
+            "equal_opportunity_difference": {
+                "min": -0.07751762457644806,
+                "max": -0.07751762457644806,
+                "mean": -0.07751762457644806
+            },
+            "average_odds_difference": {
+                "min": -0.07304538013546921,
+                "max": -0.07304538013546921,
+                "mean": -0.07304538013546921
+            },
+            "disparate_impact": {
+                "min": 0.32851073410888,
+                "max": 0.32851073410888,
+                "mean": 0.32851073410888
+            },
+            "theil_index": {
+                "min": 0.1181783800039693,
+                "max": 0.1181783800039693,
+                "mean": 0.1181783800039693
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.GERMAN_CREDIT",
+            "preprocessor": "Preprocessors.AGE",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.SUPPORT_VECTOR_MACHINES",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.715,
+                "max": 0.715,
+                "mean": 0.715
+            },
+            "precision": {
+                "min": 0.7142857142857143,
+                "max": 0.7142857142857143,
+                "mean": 0.7142857142857143
+            },
+            "recall": {
+                "min": 0.9929078014184397,
+                "max": 0.9929078014184397,
+                "mean": 0.9929078014184397
+            },
+            "f1_score": {
+                "min": 0.8308605341246291,
+                "max": 0.8308605341246291,
+                "mean": 0.8308605341246291
+            },
+            "auc": {
+                "min": 0.5218776295227792,
+                "max": 0.5218776295227792,
+                "mean": 0.5218776295227792
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": 0.023809523809523836,
+                "max": 0.023809523809523836,
+                "mean": 0.023809523809523836
+            },
+            "equal_opportunity_difference": {
+                "min": 0.008403361344537785,
+                "max": 0.008403361344537785,
+                "mean": 0.008403361344537785
+            },
+            "average_odds_difference": {
+                "min": 0.034813925570228055,
+                "max": 0.034813925570228055,
+                "mean": 0.034813925570228055
+            },
+            "disparate_impact": {
+                "min": 1.024390243902439,
+                "max": 1.024390243902439,
+                "mean": 1.024390243902439
+            },
+            "theil_index": {
+                "min": 0.06149493598848858,
+                "max": 0.06149493598848858,
+                "mean": 0.06149493598848858
+            }
+        }
+    },
+    {
+        "params": {
+            "dataset": "Datasets.ADULT_INCOME",
+            "preprocessor": "Preprocessors.SEX",
+            "unbias_data_algorithm": "UnbiasDataAlgorithms.NOTHING",
+            "algorithm": "Algorithms.RANDOM_FOREST",
+            "unbias_postproc_algorithm": "UnbiasPostProcAlgorithms.NOTHING"
+        },
+        "performance_metrics": {
+            "accuracy": {
+                "min": 0.8548369264787176,
+                "max": 0.8548369264787176,
+                "mean": 0.8548369264787176
+            },
+            "precision": {
+                "min": 0.7413232104121475,
+                "max": 0.7413232104121475,
+                "mean": 0.7413232104121475
+            },
+            "recall": {
+                "min": 0.6205174761688607,
+                "max": 0.6205174761688607,
+                "mean": 0.6205174761688607
+            },
+            "f1_score": {
+                "min": 0.6755621447986163,
+                "max": 0.6755621447986163,
+                "mean": 0.6755621447986163
+            },
+            "auc": {
+                "min": 0.7754005094962982,
+                "max": 0.7754005094962982,
+                "mean": 0.7754005094962982
+            }
+        },
+        "fairness_metrics": {
+            "statistical_parity_difference": {
+                "min": -0.17888753739534696,
+                "max": -0.17888753739534696,
+                "mean": -0.17888753739534696
+            },
+            "equal_opportunity_difference": {
+                "min": -0.10129434247081304,
+                "max": -0.10129434247081304,
+                "mean": -0.10129434247081304
+            },
+            "average_odds_difference": {
+                "min": -0.08685733987737196,
+                "max": -0.08685733987737196,
+                "mean": -0.08685733987737196
+            },
+            "disparate_impact": {
+                "min": 0.3163860774442484,
+                "max": 0.3163860774442484,
+                "mean": 0.3163860774442484
+            },
+            "theil_index": {
+                "min": 0.11662926585990899,
+                "max": 0.11662926585990899,
+                "mean": 0.11662926585990899
+            }
+        }
+    }
+]

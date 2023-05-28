@@ -1,4 +1,4 @@
-# MsC
+# FAIRPE-K
 Master's Degree
 
 ## Installation and running
